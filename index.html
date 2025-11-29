@@ -10,257 +10,247 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/Imagenes/logo2.png" alt="Logo" width="80" height="80"
-                        class="d-inline-block">
-                    El flautista de Hamelín
-                </a>
-            </div>
-        </nav>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#proceso">Proceso</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#tematica">Temática</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#origenes">Origen</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aventura">Aventura Grafica</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#moraleja">Moraleja</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide g-4">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="Imagenes/img4.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Imagenes/img1.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Imagenes/img2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="Imagenes/img3.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <h1 id="tematica">Temática:</h1>
-            <p>La temática del proyecto es la de la historia del Flautista de Hamelín, una historia fundada en el
-                folclore de la ciudad alemania de Hamelín tras las especulaciónes generadas a raiz de un evento
-                retratado en una cristalera de la iglesia local, posteriormente reinterpretado y popularizado por los
-                hermanos Grimm, famosos escritores de leyendas infantiles.</p>
-            <h1 id="proceso">Proceso:</h1>
-            <p>El proyecto fué realizado con processing en su variante P5.Js: Una herramienta intuitiva para aprender a
-                programar y crear arte. Es una biblioteca de JavaScript gratuita y de código abierto, creada por una
-                comunidad inclusiva y enriquecedora.</p>
-            <p>La creación de la obra inició mediante el desarrollo de un diagrama de flujo que desarrollara de manera
-                concreta y ordenada las distintas variantes o "caminos a seguír" correspondientes al flujo de la
-                historia recorrida en la aventura grafica.</p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Diagrama de flujo
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">El flautista de Hamelín</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#proceso">Proceso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tematica">Temática</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#origenes">Origen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aventura">Aventura Gráfica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#moraleja">Moraleja</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide g-4">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/img4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/img1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/img2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/img3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <h1 id="tematica">Temática:</h1>
+        <p>La temática del proyecto es la de la historia del Flautista de Hamelín, una historia fundada en el
+            folclore de la ciudad alemania de Hamelín tras las especulaciónes generadas a raiz de un evento
+            retratado en una cristalera de la iglesia local, posteriormente reinterpretado y popularizado por los
+            hermanos Grimm, famosos escritores de leyendas infantiles.</p>
+        <h1 id="proceso">Proceso:</h1>
+        <p>El proyecto fué realizado con processing en su variante P5.Js: Una herramienta intuitiva para aprender a
+            programar y crear arte. Es una biblioteca de JavaScript gratuita y de código abierto, creada por una
+            comunidad inclusiva y enriquecedora.</p>
+        <p>La creación de la obra inició mediante el desarrollo de un diagrama de flujo que desarrollara de manera
+            concreta y ordenada las distintas variantes o "caminos a seguír" correspondientes al flujo de la
+            historia recorrida en la aventura grafica.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Diagrama de flujo
+        </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Diagrama de flujo</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Diagrama de flujo</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Imagenes/diagrama.png" alt="" width="470" height="270">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>Posterior a la creación del diagrama fue realizada una lista en un archivo de formato txt para ser
+            utilizado como fuente de carga de todos los dialogos y textos presentes en la obra, los cuales fueron
+            cargados y dibujados mediante el uso de arreglos dentro del código</p>
+        <p>Tras todo esto fue posible iniciar con el desarrollo del codigo de la aventura grafica, el cual por
+            pautas de entrega debía contar con Manejo de arreglos, funciones (con parámetros), imagenes y sonido,
+            ademas de Controladores/ Zonas interactivas de acción para avanzar con el desarrollo de la historia en
+            las pantallas.</p>
+        <p>La musica utilizada para anbientar las pantallas que narran la historia dentrod e la aventura grafica es
+            "Ocarina of time", mientras que la musica utilizada para ambientar la pantalla de creditos es "great fairy
+            mountain", ambos tracs pertenecientes al videojuego The Legend Of Zelda: Ocarina Of Time.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-sm-12 g-4">
+            <div class="card">
+                <img src="Imagenes/img0.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h1 id="origenes">Origen:</h1>
+                    <p class="card-text">La historia del Flautista de Hamelin tiene un origen más oscuro y
+                        enigmático que la versión infantil que hoy conocemos. La referencia más antigua proviene de
+                        una cristalera —un vitral colocado alrededor del año 1300 en la iglesia de Hamelin— que
+                        mostraba a un hombre vestido con colores brillantes guiando a un grupo de niños fuera de la
+                        ciudad. El vitral, que lamentablemente fue destruido en el siglo XVII, incluía una
+                        inscripción mencionando la fecha del suceso: el 26 de junio de 1284. No se hablaba de ratas,
+                        música ni castigos; solo de la inexplicable desaparición de 130 jóvenes habitantes del
+                        pueblo. Para los cronistas medievales, este acontecimiento era tan real como trágico, y las
+                        teorías que surgieron después hablaban de migraciones forzadas hacia Europa del Este,
+                        reclutamientos, epidemias o incluso un ritual colectivo cuya naturaleza se perdió con el
+                        tiempo.
+
+                        Con el paso de los siglos, la tradición oral transformó aquel suceso histórico en un relato
+                        simbólico. El misterioso “hombre multicolor” pasó a ser un flautista que utilizaba la música
+                        como herramienta mágica para encantar no solo a los niños, sino también a las ratas que
+                        asolaban la ciudad. Este añadido —la plaga y su eliminación— apareció recién en los siglos
+                        XVI y XVII, cuando las historias populares empezaron a moralizar las conductas humanas
+                        mediante castigos ejemplares.
+
+                        Cuando los hermanos Grimm recopilaron la leyenda en el siglo XIX, ya existían múltiples
+                        versiones. Ellos la destilaron en un cuento más compacto y claramente aleccionador: la
+                        ciudad de Hamelin, ingrata y avara por no pagar al flautista el servicio prestado, pierde a
+                        sus niños como castigo divino o sobrenatural. Los Grimm eliminaron las explicaciones
+                        históricas y reforzaron los elementos fantásticos, convirtiendo la historia en una parábola
+                        sobre la importancia de cumplir las promesas. Así, un hecho posiblemente real se transformó,
+                        a través de los siglos, en una de las leyendas más inquietantes y perdurables del folclore
+                        europeo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 g-4">
+            <div class="card">
+                <img src="Imagenes/logo2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="aventura">Quienes trabajaron en la obra?</h5>
+                    <p class="card-text">El proyecto fué realizado por Gaspar Varetta y Gerónimo Goñi, alumnos de la
+                        comisión cuatro de programación para medios interactivos web de la Facultad de Artes de la
+                        UNLP</p>
+                    <p class="card-text">Al presionar el botón que se encuentra a continuación de este texto puede
+                        accederse al la aventura grafica interactiva.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Aventura Gráfica
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">El flautista de Hamelín</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe src="tpfinalparte1/index.html" frameborder="0" width="100%"
+                                        height="100%"></iframe>
+                                </div>
+                            </div>
                         </div>
-                        <div class="modal-body">
-                            <img src="Imagenes/diagrama.png" alt="" width="470" height="270">
+                    </div>
+                    <p class="card-text">Además, a continuación puede verse más información de los alumnos que
+                        participaron en la creación de la obra interactiva</p>
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Gaspar Vareta
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> <img src="Imagenes/gaspar.png" alt="" width="100" height="100">
+                                <p>Gaspar Varetta, alumno hace un año de la carrera de diseño
+                                    multimedial,previamente alumno durante tres años de artes plasticas con
+                                    orientación a dibujo
+                                </p>
+                                <p>22 años</p>
+                                <p>Numero de legajo: 89453/0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Gerónimo Goñi
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="accordion-body"> <img src="Imagenes/gero.png" alt="" width="100"
+                                        height="100">
+                                    <p>Gerónimo Goñi, alumno hace tres años de la carrera de diseño multimedial,
+                                        proximamente alumno de la carrera de artes audiovisuales con orientación a
+                                        guión, tambien en la Facultad de Artes de la UNLP
+                                    </p>
+                                    <p>20 años</p>
+                                    <p>Numero de legajo: 94758/7</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <p>Posterior a la creación del diagrama fue realizada una lista en un archivo de formato txt para ser
-                utilizado como fuente de carga de todos los dialogos y textos presentes en la obra, los cuales fueron
-                cargados y dibujados mediante el uso de arreglos dentro del código</p>
-            <p>Tras todo esto fue posible iniciar con el desarrollo del codigo de la aventura grafica, el cual por
-                pautas de entrega debía contar con Manejo de arreglos, funciones (con parámetros), imagenes y sonido,
-                ademas de Controladores/ Zonas interactivas de acción para avanzar con el desarrollo de la historia en
-                las pantallas.</p>
-                <p>La musica utilizada para anbientar las pantallas que narran la historia dentrod e la aventura grafica es "Ocarina of time", mientras que la musica utilizada para ambientar la pantalla de creditos es "great fairy mountain", ambos tracs pertenecientes al videojuego The Legend Of Zelda: Ocarina Of Time.</p>
         </div>
         <div class="row">
-            <div class="col-md-8 col-sm-12 g-4">
-                <div class="card">
-                    <img src="Imagenes/img0.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h1 id="origenes">Origen:</h1>
-                        <p class="card-text">La historia del Flautista de Hamelin tiene un origen más oscuro y
-                            enigmático que la versión infantil que hoy conocemos. La referencia más antigua proviene de
-                            una cristalera —un vitral colocado alrededor del año 1300 en la iglesia de Hamelin— que
-                            mostraba a un hombre vestido con colores brillantes guiando a un grupo de niños fuera de la
-                            ciudad. El vitral, que lamentablemente fue destruido en el siglo XVII, incluía una
-                            inscripción mencionando la fecha del suceso: el 26 de junio de 1284. No se hablaba de ratas,
-                            música ni castigos; solo de la inexplicable desaparición de 130 jóvenes habitantes del
-                            pueblo. Para los cronistas medievales, este acontecimiento era tan real como trágico, y las
-                            teorías que surgieron después hablaban de migraciones forzadas hacia Europa del Este,
-                            reclutamientos, epidemias o incluso un ritual colectivo cuya naturaleza se perdió con el
-                            tiempo.
-
-                            Con el paso de los siglos, la tradición oral transformó aquel suceso histórico en un relato
-                            simbólico. El misterioso “hombre multicolor” pasó a ser un flautista que utilizaba la música
-                            como herramienta mágica para encantar no solo a los niños, sino también a las ratas que
-                            asolaban la ciudad. Este añadido —la plaga y su eliminación— apareció recién en los siglos
-                            XVI y XVII, cuando las historias populares empezaron a moralizar las conductas humanas
-                            mediante castigos ejemplares.
-
-                            Cuando los hermanos Grimm recopilaron la leyenda en el siglo XIX, ya existían múltiples
-                            versiones. Ellos la destilaron en un cuento más compacto y claramente aleccionador: la
-                            ciudad de Hamelin, ingrata y avara por no pagar al flautista el servicio prestado, pierde a
-                            sus niños como castigo divino o sobrenatural. Los Grimm eliminaron las explicaciones
-                            históricas y reforzaron los elementos fantásticos, convirtiendo la historia en una parábola
-                            sobre la importancia de cumplir las promesas. Así, un hecho posiblemente real se transformó,
-                            a través de los siglos, en una de las leyendas más inquietantes y perdurables del folclore
-                            europeo.</p>
-                    </div>
-                </div>
+            <div class="col-md-6 col-sm-2">
+                <img src="Imagenes/img5.png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-4 col-sm-12 g-4">
-                <div class="card">
-                    <img src="Imagenes/logo2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title" id="aventura">Quienes trabajaron en la obra?</h5>
-                        <p class="card-text">El proyecto fué realizado por Gaspar Varetta y Gerónimo Goñi, alumnos de la
-                            comisión cuatro de programación para medios interactivos web de la Facultad de Artes de la
-                            UNLP</p>
-                        <p class="card-text">Al presionar el botón que se encuentra a continuación de este texto puede
-                            accederse al la aventura grafica interactiva.</p>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Aventura Gráfica
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-fullscreen">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">El flautista de Hamelín</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <iframe src="tpfinalparte1/index.html" frameborder="0" width="100%"
-                                            height="100%"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="card-text">Además, a continuación puede verse más información de los alumnos que
-                            participaron en la creación de la obra interactiva</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Gaspar Vareta
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body"> <img src="Imagenes/gaspar.png" alt="" width="100"
-                                        height="100">
-                                    <p>Gaspar Varetta, alumno hace un año de la carrera de diseño
-                                        multimedial,previamente alumno durante tres años de artes plasticas con
-                                        orientación a dibujo
-                                    </p>
-                                    <p>22 años</p>
-                                    <p>Numero de legajo: 89453/0</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Gerónimo Goñi
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <div class="accordion-body"> <img src="Imagenes/gero.png" alt="" width="100"
-                                            height="100">
-                                        <p>Gerónimo Goñi, alumno hace tres años de la carrera de diseño multimedial,
-                                            proximamente alumno de la carrera de artes audiovisuales con orientación a
-                                            guión, tambien en la Facultad de Artes de la UNLP
-                                        </p>
-                                        <p>20 años</p>
-                                        <p>Numero de legajo: 94758/7</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6 col-sm-10">
+                <h4 id="moraleja">Lo que la obra nos enseña</h4>
+                <p>La moraleja del Flautista de Hamelin gira en torno a las consecuencias de la avaricia y la falta
+                    de palabra. La ciudad rompe su promesa de pagar por la ayuda recibida y, como resultado, pierde
+                    lo más valioso que tiene: sus niños. El cuento advierte que los pactos deben cumplirse y que la
+                    deshonestidad trae un costo mayor que cualquier deuda. También sugiere que ignorar lo justo abre
+                    la puerta a fuerzas que escapan al control humano.</p>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-2">
-                    <img src="Imagenes/img5.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-sm-10">
-                    <h4 id="moraleja">Lo que la obra nos enseña</h4>
-                    <p>La moraleja del Flautista de Hamelin gira en torno a las consecuencias de la avaricia y la falta
-                        de palabra. La ciudad rompe su promesa de pagar por la ayuda recibida y, como resultado, pierde
-                        lo más valioso que tiene: sus niños. El cuento advierte que los pactos deben cumplirse y que la
-                        deshonestidad trae un costo mayor que cualquier deuda. También sugiere que ignorar lo justo abre
-                        la puerta a fuerzas que escapan al control humano.</p>
-                </div>
-            </div>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                crossorigin="anonymous"></script>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
